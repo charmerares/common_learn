@@ -1,0 +1,9 @@
+FROM java:8
+
+MAINTAINER royalvald@sina.com
+
+ADD package-1.0-SNAPSHOT.jar package.jar
+
+CMD java -jar package.jar
+
+
